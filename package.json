@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-duotone-darksea",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Duotone Dark Sea theme for Hyperterm",
   "main": "index.js",
   "scripts": {
