@@ -17,7 +17,7 @@ exports.decorateConfig = config => {
 		backgroundColor,
 		foregroundColor,
 		borderColor: '#222430',
-		cursorColor: '#97979b',
+		cursorColor: '#0acd93',
 		colors: [
 			black,
 			slate,
