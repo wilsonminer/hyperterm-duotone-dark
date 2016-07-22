@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kkemple/hyperterm-duotone-darksea/issues"
   },
-  "homepage": "https://github.com/kkemple/hyperterm-duotone-darksea#readme"
+  "homepage": "https://github.com/kkemple/hyperterm-duotone-darksea#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
