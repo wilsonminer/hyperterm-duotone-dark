@@ -4,7 +4,7 @@
 
 ![theme example](./duotone-darksea-example.gif)
 
-Inspired by the [Duotone](http://simurai.com/projects/2016/01/01/duotone-themes/) themes by [Simurai](http://simurai.com/).
+Inspired by the [Duotone](http://simurai.com/projects/2016/01/01/duotone-themes) themes by [Simurai](http://simurai.com/).
 
 Inspired by [hyperterm-snazzy](https://github.com/sindresorhus/hyperterm-snazzy) theme by [sindresorhus](https://github.com/sindresorhus)
 
