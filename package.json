@@ -1,23 +1,20 @@
 {
   "name": "hyperterm-duotone-dark",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Duotone Dark theme for Hyperterm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wilsonminer/hyperterm-duotone-dark.git"
-  },
+  "repository": "wilsonminer/hyperterm-duotone-dark", 
   "keywords": [
     "hyperterm",
-    "hyperterm-theme"
+    "hyperterm-theme",
+    "duotone",
+    "dark",
+    "purple",
+    "gold"
   ],
-  "author": "github@wilsonminer.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wilsonminer/hyperterm-duotone-dark/issues"
-  },
-  "homepage": "https://github.com/wilsonminer/hyperterm-duotone-dark#readme"
+  "author": "contact@wilsonminer.com",
+  "license": "MIT"
 }
