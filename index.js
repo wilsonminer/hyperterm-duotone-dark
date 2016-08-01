@@ -33,8 +33,8 @@ const baseD5 = "#ffb870"
 const baseD6 = "#ffc285"
 const baseD7 = "#ffcc99"
 
-const darkBackgroundColor = '#292734'
-const backgroundColor = baseA1
+const darkBackgroundColor = '#23212C'
+const backgroundColor = '#292734'
 const foregroundColor = baseA6
 const cursorColor = baseD0
 
@@ -113,4 +113,4 @@ exports.decorateConfig = config => {
       }
     `
   })
-}
+
