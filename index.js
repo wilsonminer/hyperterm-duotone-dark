@@ -113,4 +113,4 @@ exports.decorateConfig = config => {
       }
     `
   })
-
+}

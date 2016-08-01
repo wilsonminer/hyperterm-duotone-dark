@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-duotone-dark",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Duotone Dark theme for Hyperterm",
   "main": "index.js",
   "scripts": {
