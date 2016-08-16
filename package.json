@@ -1,12 +1,12 @@
 {
   "name": "hyperterm-duotone-dark",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Duotone Dark theme for Hyperterm",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "wilsonminer/hyperterm-duotone-dark", 
+  "repository": "wilsonminer/hyperterm-duotone-dark",
   "keywords": [
     "hyperterm",
     "hyperterm-theme",

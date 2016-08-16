@@ -1,4 +1,4 @@
-'use strict'
+/* Base16 colors converted from DuoTone theme */
 
 const baseA0 = "#2a2734"
 const baseA1 = "#363342"
@@ -33,10 +33,15 @@ const baseD5 = "#ffb870"
 const baseD6 = "#ffc285"
 const baseD7 = "#ffcc99"
 
+/* App colors */
+
 const darkBackgroundColor = '#23212C'
-const backgroundColor = '#292734'
+const backgroundColor = baseA0
 const foregroundColor = baseA6
 const cursorColor = baseD0
+const borderColor = '#1E1C25'
+
+/* Term colors */
 
 const colors = {
   black: baseA0,
@@ -62,7 +67,7 @@ exports.decorateConfig = config => {
     backgroundColor,
     foregroundColor,
     cursorColor: cursorColor,
-    borderColor: 'rgba(0, 0, 0, 0.15)',
+    borderColor: borderColor,
     colors: colors,
     css: `
       ${config.css || ''}
@@ -73,7 +78,7 @@ exports.decorateConfig = config => {
       }
       .tabs_list {
         background-color: ${darkBackgroundColor} !important;
-        border-bottom-color: rgba(0, 0, 0, 0.15) !important;
+        border-bottom-color: ${borderColor} !important;
       }
       .tab_tab {
         color: ${baseA4} !important;
@@ -81,29 +86,10 @@ exports.decorateConfig = config => {
       .tab_tab.tab_active {
         font-weight: 500;
         background-color: ${backgroundColor};
-        border-color: rgba(0, 0, 0, 0.5) !important;
-        box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.06);
+        border-color: ${borderColor} !important;
       }
       .tab_tab.tab_active::before {
         border-bottom-color: ${backgroundColor};
-      }
-      .tab_tab::after {
-        content: "";
-        position: absolute;
-        pointer-events: none;
-        z-index: 2;
-        top: 0px;
-        left: -1px;
-        bottom: -1px;
-        width: 2px;
-        border-radius: 0;
-        background: ${baseB0};
-        opacity: 0;
-        transition: opacity .16s;
-      }
-      .tab_tab.tab_active::after {
-        opacity: 1;
-        transition-duration: .32s;
       }
       .tabs_title, .tab_icon, .tab_tab.tab_active {
         color: ${baseA6} !important;
