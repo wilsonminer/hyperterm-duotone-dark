@@ -76,6 +76,9 @@ exports.decorateConfig = config => {
         right: 0;
         left: 0;
       }
+      .tabs_nav {
+        background-color: ${darkBackgroundColor} !important;
+      }
       .tabs_list {
         background-color: ${darkBackgroundColor} !important;
         border-bottom-color: ${borderColor} !important;
